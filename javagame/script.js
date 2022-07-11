@@ -45,11 +45,6 @@ function playerChoice() {
   return input;
 }
 
-
-function validateInput(options) {
-  return options.includes(options);
-}
-
 function computerChoice() {
   return options[Math.floor(Math.random() * options.length)];
 }
